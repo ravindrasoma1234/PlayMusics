@@ -6,9 +6,6 @@ body {
 }
 
 section {
-    height: 100%;
-    width: 100%;
-    /* position: relative; */
     height: 100vh;
     width: 100%;
     background: url('../img/image.png');
@@ -28,7 +25,7 @@ section {
 
 .leaf div {
     position: absolute;
-    display: inline-block;
+    display: block;
 }
 
 .leaf div:nth-child(1) {
@@ -107,8 +104,6 @@ section {
     margin: 0;
     font-family: 'Architects Daughter', cursive;
 }
-
-.container {}
 
 #navbar {
     width: 90%;
