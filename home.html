@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music</title>
-    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" style="height: 100px; width: 100px;">
-    <link rel="stylesheet" href="./css/style.css">
+    <title>
+        Octoberfest
+    </title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-    <div class="container">
+    <section>
         <div id="navbar">
             <img src="./img/logo.png" alt="logo" class="logo">
             <ul>
@@ -42,10 +42,58 @@
                 <img src="./img/play.png" alt="play" id="icon">
             </div>
         </div>
-    </div>
-    <audio id="mySong">
-        <source src="./fm-freemusic-give-me-a-smile.mp3" type="audio/mp3">
-    </audio>
+        <audio id="mySong">
+            <source src="./fm-freemusic-give-me-a-smile.mp3" type="audio/mp3">
+        </audio>
+
+        <div class="leaf">
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+
+        </div>
+
+        <div class="leaf leaf1">
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i>
+            </div>
+
+        </div>
+
+        <div class="leaf leaf2">
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i></div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i></div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i></div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i></div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i></div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i></div>
+            <div> <i class="fas fa-music fa-5x" style="color: black;"></i></div>
+            <!-- <div> <i class="fas fa-music fa-5x" style="color: white;"></i></div> -->
+
+        </div>
+    </section>
     <script>
         var mySong = document.getElementById('mySong');
         var icon = document.getElementById("icon");
@@ -62,7 +110,6 @@
             }
         }
     </script>
-
 </body>
 
 </html>
